@@ -24,7 +24,7 @@ This project consists of two applications communicating via **FIX 4.4** using **
 ### OrderAccumulator  
 - Computes **financial exposure** per symbol:  
   \[
-  Exposure = \sum (price \times executed quantity)_{buys} - \sum (price \times executed quantity)_{sells}
+  Exposure=∑(price×executedquantity) buys −∑(price×executedquantity)sells
   \]  
 - Rejects orders exceeding **R$ 100,000,000** exposure.  
 - Responds with an **ExecutionReport**:  
